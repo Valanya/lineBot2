@@ -31,6 +31,8 @@ def callback():
         sendText(user,'อึงซิบ้า')
     elif (userText =='หล่อนะ') :
         sendText(user,'ขอบคุณที่ชม')
+    else :
+         sendText(user,'งงอ่า')
     return '',200
 
 def sendText(user, text):
